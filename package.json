@@ -1,0 +1,28 @@
+{
+  "name": "tnuapi",
+  "version": "1.0.0",
+  "description": "TnuApi is Web-service working with TnuCore",
+  "main": "run.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tnusocial/TnuApi.git"
+  },
+  "keywords": [
+    "Tnu",
+    "TnuApi",
+    "Web"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tnusocial/TnuApi/issues"
+  },
+  "homepage": "https://github.com/tnusocial/TnuApi#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "tnucore": "^1.0.5"
+  }
+}
