@@ -1,3 +1,5 @@
+const api = require('./Controllers/api');
+
 function apply(app) {
     app.get("/", function (req, res) {
         res.send("Home!");
@@ -7,9 +9,7 @@ function apply(app) {
         res.send("Hello_world!");
     });
 
-    app.get("/Hello", function (req, res) {
-        res.send("Hello!");
-    });
+    app.post("/login", api.login);
 }
 
 module.exports = {

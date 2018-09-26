@@ -4,6 +4,7 @@
   "description": "TnuApi is Web-service working with TnuCore",
   "main": "run.js",
   "scripts": {
+    "start": "node run.js",
     "test": "node test.js"
   },
   "repository": {
