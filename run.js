@@ -7,6 +7,7 @@ const port =process.env.PORT||8080;
 
 const app = express();
 
+router.registerDataProcess(app);
 router.apply(app);
 
 console.log("TnuApi starting webservicer at port " + port);
