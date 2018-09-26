@@ -10,7 +10,11 @@ function registerDataProcess(app) {
         });
 
         req.on('end', function() {
-            req.body = JSON.parse(req.rawBody);
+            try {
+                req.body = JSON.parse(req.rawBody);
+            } catch (err) {
+
+            }
             next();
         });
     });
