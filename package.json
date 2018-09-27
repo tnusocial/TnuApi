@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/tnusocial/TnuApi#readme",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "express": "^4.16.3",
     "tnucore": "^1.0.5"
   }
