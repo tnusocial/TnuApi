@@ -23,7 +23,9 @@
   },
   "homepage": "https://github.com/tnusocial/TnuApi#readme",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "express": "^4.16.3",
+    "socket.io": "^2.1.1",
     "tnucore": "^1.0.5"
   }
 }
